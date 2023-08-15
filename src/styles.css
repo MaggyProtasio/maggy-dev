@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Syne:wght@400;700;800&display=swap');
+
+html,body{
+    font-family: 'DM Sans', sans-serif !important;
+    letter-spacing: 0.3px;
+}
+
+#hero-section{
+    min-height: 100vh;
+    flex-direction: column;
+    background: url("hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: calc(80px + 10rem);
+}
+
+.hero-subtitle{
+    font-size: 1.5rem;
+}
+
+.hero-title{
+    font-size: 4rem;
+}
