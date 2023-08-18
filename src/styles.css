@@ -3,8 +3,10 @@
 html,body{
     font-family: 'DM Sans', sans-serif !important;
     letter-spacing: 0.3px;
+    height: 100vh;
 }
 
+/* --------------Hero section -------------- */
 #hero-section{
     min-height: 100vh;
     flex-direction: column;
@@ -22,3 +24,43 @@ html,body{
 .hero-title{
     font-size: 4rem;
 }
+
+.outer-headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.inner-headings {
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 4rem;
+    overflow: hidden;
+}
+  
+.inner-headings span {
+    position: relative;
+    color: crimson;
+    animation: animation 8s ease infinite;
+    display: inline-block;
+    padding-left: 15px;
+}
+@keyframes animation {
+    0%, 20% {
+      transform: translateY(0%);
+    }
+    25%, 45% {
+      transform: translateY(-100%);
+    }
+    50%, 70% {
+      transform: translateY(-200%);
+    }
+    75%, 95% {
+      transform: translateY(-300%);
+    }
+    100% {
+      transform: translateY(-400%);
+    }
+}
+
+  
