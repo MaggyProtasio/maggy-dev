@@ -10,6 +10,12 @@ html,body{
   font-size: 4.5rem;
 }
 
+.section-padding{
+  padding-inline: 9rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 /* --------------Hero section -------------- */
 .hero-section{
   height: 100vh;
@@ -55,18 +61,29 @@ html,body{
   z-index: 2;
   height: auto;
   background-color: #f8f8f8;
-  padding-inline: 10rem;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
 }
 
-.asterisk{
-  width: 7rem;
-  height: auto;
+.projects-section>*{
+  padding-left: 0 !important; 
+  padding-right: 0 !important;
+}
+
+.row{
+  --bs-gutter-x: 0rem !important;
+}
+
+.row .asterisk{
+  width: auto;
+  height: 7rem;
 }
 
 .more-box{
-  
+  width: 7.43775rem;
+  height: 2.5rem;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
 }
 
 .more-box img{
@@ -77,10 +94,57 @@ html,body{
 .projects-section .img-container{
   border-radius: 30px;
   border: 3px solid #000;
-  width: 450px;
-  height: 280px;
+  width: 28.125rem;
+  height: 17.5rem;
   object-fit: cover;
   flex-shrink: 0;
+}
+
+
+/* ------- Media sizes ------------  */
+@media only screen and (max-width: 960px) {
+  .section-padding {
+    padding-inline: 4rem;
+  }
+
+  .projects-section .img-container{
+    width: 20rem;
+    height: auto;
+  }
+
+}
+
+@media only screen and (max-width: 540px) {
+  .section-padding {
+    padding-inline: 1rem;
+  }
+
+  .large-title{
+    font-size: 2.5rem;
+  }
+  /* Hero ------------- */
+
+  .hero-subtitle{
+    font-size: 1rem;
+  }
+  
+  .hero-title{
+    font-size: 3rem;
+  }
+
+  .inner-headings {
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 3rem;
+  }
+
+  /* Projects ------------- */
+
+  .projects-section .img-container{
+    width: 18rem;
+    height: auto;
+  }
+
 }
 
 /* ------- Animations ------- */
@@ -261,23 +325,4 @@ html,body{
   transform-origin: -6vw 4vh;
   box-shadow: 100vmin 0 12.92396374076931vmin currentColor;
 }
-.circle-bg span:nth-child(13) {
-  color: #5065c9;
-  top:  70%;
-  left: 25%;
-  animation-duration: 353s;
-  animation-delay: -156s;
-  transform-origin: 16vw -20vh;
-  box-shadow: -100vmin 0 13.035473742788074vmin currentColor;
-}
-.circle-bg span:nth-child(14) {
-  color: #5065c9;
-  top:  70%;
-  left: 25%;
-  animation-duration: 170s;
-  animation-delay: -63s;
-  transform-origin: 5vw 0vh;
-  box-shadow: 100vmin 0 12.765351136116239vmin currentColor;
-}
-
 
