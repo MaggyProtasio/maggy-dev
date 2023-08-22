@@ -79,34 +79,31 @@ html,body{
 
 .more-box{
   width: 7.5rem;
-  height: 3rem;
+  height: 9rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   display: flex;
   text-decoration: none;
-  color: black;
+  color: transparent;
   font-weight: 700;
   font-size: 1.3rem;
   transition: ease-in-out 0.3s;
-  background-image: linear-gradient(to right, #ffc205, #f87765);
-  -webkit-background-clip: text;
-  color: transparent;
 }
 
 .more-box:hover {
-  color: #1d1d1d;
+  color: #000000;
 }
 
 .more-box img{
-  width: 7rem;
+  width: 6.7rem;
   height: auto;
 }
 
 .projects-section .img-box{
   position: relative; 
   border-radius: 30px;
-  border: 3px solid #000;
+  border: 1px solid #000000;
   width: 28.125rem;
   height: 17.5rem;
   object-fit: cover;
@@ -131,7 +128,7 @@ html,body{
   align-items: center;
   justify-content: center;
   opacity: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.93);
   color: white;
   transition: opacity 0.4s ease;
   font-size: 1.8rem;
@@ -154,10 +151,11 @@ html,body{
 
 .about-section .content{
   font-size: 1.5rem;
+  padding-inline: 6rem;
 }
 
 .blue-cube{
-  width: 11.5rem;
+  width: 11.5rem !important;
   height: auto;
 }
 
@@ -171,20 +169,30 @@ html,body{
   color:#1d1d1d;
 }
 
+.sideline{
+  width: 0.25rem;
+  height: auto;
+}
+
 
 /* ------------- Media sizes ---------------  */
+/* lg */
 @media only screen and (max-width: 960px) {
   .section-padding {
     padding-inline: 4rem;
   }
 
-  .projects-section .img-container{
+  .projects-section .img-box{
     width: 20rem;
     height: auto;
   } 
+  .about-section .content{
+    padding-inline: 1rem;
+  }
  
 }
 
+/* sm */
 @media only screen and (max-width: 540px) {
   .section-padding {
     padding-inline: 1rem;
@@ -211,8 +219,14 @@ html,body{
 
   /* Projects ------------- */
 
-  .projects-section .img-container{
+  .projects-section .img-box{
     width: 18rem;
+    height: auto;
+  }
+
+  /* About --------- */
+  .blue-cube{
+    width: 11.5rem;
     height: auto;
   }
 
