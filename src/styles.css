@@ -78,8 +78,8 @@ html,body{
 }
 
 .more-box{
-  width: 7.43775rem;
-  height: 2.5rem;
+  width: 7.5rem;
+  height: 3rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -87,6 +87,7 @@ html,body{
   text-decoration: none;
   color: black;
   font-weight: 700;
+  font-size: 1.3rem;
   transition: ease-in-out 0.3s;
   background-image: linear-gradient(to right, #ffc205, #f87765);
   -webkit-background-clip: text;
@@ -94,7 +95,7 @@ html,body{
 }
 
 .more-box:hover {
-  color: black;
+  color: #1d1d1d;
 }
 
 .more-box img{
@@ -141,6 +142,33 @@ html,body{
 
 .projects-section .img-box:hover .text-overlay {
   opacity: 1;
+}
+
+/* -------- About me ------- */
+.about-section{
+  position: relative;
+  z-index: 2;
+  height: auto;
+  background-color: #D5E0F3;
+}
+
+.about-section .content{
+  font-size: 1.5rem;
+}
+
+.blue-cube{
+  width: 11.5rem;
+  height: auto;
+}
+
+.content a{
+  text-decoration: underline;
+  color:#1d1d1d;
+  font-weight: 700;
+}
+
+.content a:hover{
+  color:#1d1d1d;
 }
 
 
