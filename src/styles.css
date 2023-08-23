@@ -170,7 +170,7 @@ html,body{
 }
 
 .sideline{
-  width: 0.25rem;
+  width: 0.25rem !important;
   height: auto;
 }
 
