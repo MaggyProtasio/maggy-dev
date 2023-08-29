@@ -245,9 +245,9 @@ html,body{
 .contact-section a{
   text-decoration: none;
   color: white;
-  border-radius: 1.8rem;
+  border-radius: 2rem;
   font-size: 1.5rem;
-  padding: 1.2rem 1.6rem;
+  padding: 1.2rem 2.5rem;
   transition: 0.4s ease;
 }
 
