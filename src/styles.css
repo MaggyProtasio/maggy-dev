@@ -151,7 +151,7 @@ html,body{
 
 .about-section .content{
   font-size: 1.5rem;
-  padding-inline: 6rem;
+  padding-inline: 5.5rem;
 }
 
 .blue-cube{
@@ -279,7 +279,7 @@ html,body{
 
 /* ---------------------------------- Media sizes ---------------------------------  */
 /* lg */
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 992px) {
   .section-padding {
     padding-inline: 4rem;
   }
@@ -295,7 +295,7 @@ html,body{
 }
 
 /* sm */
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 576px) {
   .section-padding {
     padding-inline: 1rem;
   }
@@ -328,7 +328,7 @@ html,body{
 
   /* About --------- */
   .blue-cube{
-    width: 11.5rem;
+    width: 11rem;
     height: auto;
   }
 
