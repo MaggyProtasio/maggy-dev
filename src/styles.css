@@ -211,36 +211,17 @@ html,body{
 
 /* ------- Contact ------ */
 .contact-section{
+  height: 100vh;
   position: relative;
   z-index: 2;
-  height: auto;
+  margin: 3rem;
 }
 
 .contact-section .contact-desc{
   font-size: 1.5rem;
+  width: 28rem;
+  margin: auto;
 }
-/* 
-.contact-section .contact-box{
-  background-color: #f8f8f8;
-  border-radius: 5.5rem;
-  padding: 3rem;
-}
-
-.contact-section .email{
-  border-radius: 1.5rem;
-  border: 3px solid #000;
-  width: 100%;
-  padding: 1rem;
-}
-
-.contact-section .message{
-  border-radius: 1.6rem;
-  border: 3px solid #000;
-  width: 100%;
-  padding: 1rem;
-  resize: none;
-}
- */
 
 .contact-section a{
   text-decoration: none;
