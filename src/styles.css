@@ -201,6 +201,7 @@ html,body{
   padding: 10px 20px;
   font-weight: 700;
   margin-bottom: 20px;
+  font-size: 1.2rem;
 }
 
 .skills-button .star-icon{
@@ -220,7 +221,6 @@ html,body{
 
 .contact-section .contact-desc{
   font-size: 1.5rem;
-  width: 28rem;
   margin: auto;
 }
 
@@ -250,7 +250,7 @@ html,body{
 }
 
 .contact-section .social img{
-  width: 4rem;
+  width: 3.3rem;
   height: auto;
 }
 
@@ -285,6 +285,8 @@ html,body{
 @media only screen and (max-width: 576px) {
   .section-padding {
     padding-inline: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .large-title{
@@ -313,10 +315,45 @@ html,body{
     height: auto;
   }
 
+  .projects-section .text-overlay{
+    font-size: 1rem;
+  }
+
+  .projects-section .more-box{
+    font-size: 1rem;
+  }
+
+  .more-box img{
+    width: 4.5rem;
+    height: auto;
+  }
+  
+
   /* About --------- */
   .blue-cube{
-    width: 11rem;
+    width: 8rem  !important;
     height: auto;
+  }
+
+  /* Skills -------- */
+
+  .skills-section .row{
+    padding-inline: 0rem;
+  }
+
+  .skills-section img{
+    max-width: 20rem;
+    height: auto;
+    padding: 10px 30px;
+  }
+
+  .skills-button{
+    font-size: 0.9rem;
+  }
+
+  /* Contact ---- */
+  .contact-section .contact-desc{
+    font-size: 1.2rem;
   }
 
 }
@@ -327,20 +364,16 @@ html,body{
   0%, 20% {
     transform: translateY(0%);
   }
-  25%, 45% {
+  33%, 53% {
     transform: translateY(-100%);
   }
-  50%, 70% {
+  66%, 86% {
     transform: translateY(-200%);
   }
-  75%, 95% {
-    transform: translateY(-300%);
-  }
   100% {
-    transform: translateY(-400%);
-  }
+    transform: translateY(-300%);
+  } 
 }
-
 
 .grain-layer{
   position: fixed;
