@@ -215,6 +215,7 @@ html,body{
   position: relative;
   z-index: 2;
   margin: 3rem;
+  margin-bottom: 1rem;
 }
 
 .contact-section .contact-desc{
@@ -230,23 +231,27 @@ html,body{
   font-size: 1.5rem;
   padding: 1.2rem 2.5rem;
   transition: 0.4s ease;
+  border: 1px solid #1d1d1d39;
 }
 
-.contact-section a:hover{
-  color: #1d1d1d;
-  background-color: rgba(0, 0, 0, 0.334);
+.contact-section .contact:hover{
+  color: white;
+  background-color: #1c7713;
 }
 
 .contact-section .contact{
   background-color: #2CA122;
 }
 
-.contact-section .linkedin{
-  background-color: #0073AF; 
+.contact-section .social a {
+  background-color: #f8f8f8;
+  padding: 0.8rem;
+  border-radius: 2.5rem;
 }
 
-.contact-section .github{
-  background-color: #1F2328;
+.contact-section .social img{
+  width: 4rem;
+  height: auto;
 }
 
 /* ------ footer ------- */
@@ -256,6 +261,7 @@ html,body{
   position: relative;
   z-index: 2;
   height: auto;
+  color: #1d1d1d;
 }
 
 /* ---------------------------------- Media sizes ---------------------------------  */
