@@ -212,7 +212,7 @@ html,body{
 
 /* ------- Contact ------ */
 .contact-section{
-  height: 100vh;
+  height: 90vh;
   position: relative;
   z-index: 2;
   margin: 3rem;
@@ -284,7 +284,7 @@ html,body{
 /* sm */
 @media only screen and (max-width: 576px) {
   .section-padding {
-    padding-inline: 1rem;
+    padding-inline: 1.5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
@@ -324,7 +324,7 @@ html,body{
   }
 
   .more-box img{
-    width: 4.5rem;
+    width: 4rem;
     height: auto;
   }
   
@@ -333,6 +333,10 @@ html,body{
   .blue-cube{
     width: 8rem  !important;
     height: auto;
+  }
+
+  .about-section .content{
+    font-size: 1.2rem;
   }
 
   /* Skills -------- */
@@ -348,11 +352,15 @@ html,body{
   }
 
   .skills-button{
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   /* Contact ---- */
   .contact-section .contact-desc{
+    font-size: 1.2rem;
+  }
+
+  .contact-section .contact{
     font-size: 1.2rem;
   }
 
