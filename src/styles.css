@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,500;9..40,700&display=swap');
 
 html,body{
   font-family: 'DM Sans', sans-serif !important;
@@ -8,6 +8,7 @@ html,body{
 
 .large-title{
   font-size: 4.5rem;
+  font-weight: 500;
 }
 
 .section-padding{
@@ -26,7 +27,8 @@ html,body{
 }
 
 .hero-subtitle{
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  font-weight: 200;
 }
 
 .hero-title{
@@ -49,7 +51,7 @@ html,body{
 .inner-headings span {
   position: relative;
   color: crimson;
-  animation: animation 8s ease infinite;
+  animation: animation 10s ease infinite;
   display: inline-block;
   padding-left: 15px;
 }
@@ -222,14 +224,15 @@ html,body{
 .contact-section .contact-desc{
   font-size: 1.5rem;
   margin: auto;
+  width: 35rem;
 }
 
 .contact-section a{
   text-decoration: none;
   color: white;
   border-radius: 2rem;
-  font-size: 1.5rem;
-  padding: 1.2rem 2.5rem;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
   transition: 0.4s ease;
   border: 1px solid #1d1d1d39;
 }
@@ -246,11 +249,11 @@ html,body{
 .contact-section .social a {
   background-color: #f8f8f8;
   padding: 0.8rem;
-  border-radius: 2.5rem;
+  border-radius: 2rem;
 }
 
 .contact-section .social img{
-  width: 3.3rem;
+  width: 2.8rem;
   height: auto;
 }
 
@@ -274,11 +277,15 @@ html,body{
   .projects-section .img-box{
     width: 20rem;
     height: auto;
-  } 
+  }
+
   .about-section .content{
     padding-inline: 1rem;
   }
- 
+
+  .contact-section .contact-desc{
+    width: 100%;
+  }
 }
 
 /* sm */
@@ -362,7 +369,17 @@ html,body{
 
   .contact-section .contact{
     font-size: 1.2rem;
+    padding: 0.7rem 2.3rem;
   }
+
+  .contact-section .social a {
+    padding: 0.8rem;
+  }
+  .contact-section .social img{
+    width: 2.5rem;
+    height: auto;
+  }
+
 
 }
 
