@@ -276,6 +276,13 @@ html,body{
 }
 
 /* ---------------------------------- Media sizes ---------------------------------  */
+/* xl + 100px */
+@media only screen and (max-width: 1300px) {
+  .skills-section .row{
+    padding-inline: 1rem;
+  }
+}
+
 /* lg */
 @media only screen and (max-width: 992px) {
   .section-padding {
@@ -289,6 +296,12 @@ html,body{
 
   .about-section .content{
     padding-inline: 1rem;
+  }
+
+  .skills-section img{
+    max-width: 27rem;
+    height: auto;
+    padding: 10px 30px;
   }
 
   .contact-section .contact-desc{
