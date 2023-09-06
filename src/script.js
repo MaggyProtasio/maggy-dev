@@ -1,5 +1,5 @@
-//Custom circular mouse pointer
-/* $(document).ready(function() {
+/* //Custom circular mouse pointer
+$(document).ready(function() {
     var cursor = $('#circular-cursor');
 
     $(document).on('mousemove', function(e) {
