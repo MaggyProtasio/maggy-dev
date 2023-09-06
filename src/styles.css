@@ -17,6 +17,18 @@ html,body{
   padding-bottom: 6rem;
 }
 
+#circular-cursor {
+  background-color: #1d1d1d;
+  border: 1px solid #1d1d1d;    
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+}
+
 /* --------------Hero section -------------- */
 .hero-section{
   height: 100vh;
