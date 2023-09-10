@@ -324,11 +324,11 @@ html,body{
   /* Hero ------------- */
 
   .hero-subtitle{
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   
   .hero-title{
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
   .inner-headings {
@@ -406,13 +406,14 @@ html,body{
 }
 
 /* ---- Cursor ---- */
-/* a:hover , button:hover {
-  cursor: none;
-}
 
 ::selection {
 	color: white;
 	background-color:#161773;
+}
+/* 
+a:hover , button:hover {
+  cursor: none;
 }
 
 #circular-cursor {
