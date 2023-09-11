@@ -52,7 +52,7 @@ html,body{
 .inner-headings span {
   position: relative;
   color:#1b1d81;
-  animation: animation 12s ease infinite;
+  animation: animation 14s ease infinite;
   display: inline-block;
   padding-left: 15px;
 }
@@ -170,16 +170,18 @@ html,body{
   text-decoration: underline;
   color:#1d1d1d;
   font-weight: 700;
+  transition: 0.4s ease;
 }
 
 .content a:hover{
-  color:#1d1d1d;
+  color:#1d4ba7;
 }
 
 .sideline{
   width: 0.25rem !important;
   height: auto;
 }
+
 
 /* ------- Skills ------- */
 .skills-section{
@@ -258,7 +260,7 @@ html,body{
 }
 
 .contact-section .social img{
-  width: 2.8rem;
+  width: 2.5rem;
   height: auto;
 }
 
@@ -430,6 +432,7 @@ a:hover , button:hover {
 /* -------------------------- Animations ------------------------------------ */
 
 @keyframes animation {
+  /* for 3 description only
   0%, 20% {
     transform: translateY(0%);
   }
@@ -441,7 +444,24 @@ a:hover , button:hover {
   }
   100% {
     transform: translateY(-300%);
+  }  */
+   
+
+  0%, 20% {
+    transform: translateY(0%);
+  }
+  25%, 45% {
+    transform: translateY(-100%);
+  }
+  50%, 70% {
+    transform: translateY(-200%);
+  }
+  75%, 95% {
+    transform: translateY(-300%);
   } 
+  100% {
+    transform: translateY(-400%);
+  }
 }
 
 .grain-layer{
