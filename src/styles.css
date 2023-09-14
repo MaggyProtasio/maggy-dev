@@ -278,6 +278,29 @@ html,body{
   width: 1.7rem;
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f8f8; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a7a7a7; 
+  border-radius: 10px;
+  transition: 0.4s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #797979; 
+}
+
 /* ---------------------------------- Media sizes ---------------------------------  */
 /* xl + 100px */
 @media only screen and (max-width: 1300px) {
