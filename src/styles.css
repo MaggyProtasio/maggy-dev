@@ -350,17 +350,17 @@ html,body{
   /* Hero ------------- */
 
   .hero-subtitle{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   
   .hero-title{
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .inner-headings {
     height: 4rem;
     line-height: 4rem;
-    font-size: 3rem;
+    font-size: 2.3rem;
   }
 
   /* Projects ------------- */
