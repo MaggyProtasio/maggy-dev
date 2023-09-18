@@ -410,6 +410,10 @@ html,body{
     font-size: 1rem;
   }
 
+  .skills-button{
+    border: 2px solid #1d1d1d;
+  }
+
   /* Contact ---- */
   .contact-section .contact-desc{
     font-size: 1.2rem;
